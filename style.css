@@ -1,0 +1,37 @@
+/* styles.css */
+
+body {
+    margin: 0; /* Elimina el margen para evitar que afecte al centrado */
+    padding: 0;
+    display: flex; /* Utiliza Flexbox en el cuerpo */
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px;
+     
+    width: 600px; /* Adjust the width of the container based on the size of the squares */
+}
+
+.square {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.row {
+    display: flex;
+    flex : 1;
+}
+.button-container {
+    
+    margin: 50px;
+
+}
